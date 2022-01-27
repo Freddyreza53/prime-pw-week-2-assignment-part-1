@@ -7,7 +7,7 @@ let lastName = 'Reza';
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-let fullName = firstName + ' '+ lastName;
+let fullName = firstName, lastName;
 
 // 4 - Console log the value of `fullName`
 console.log(fullName);
@@ -120,5 +120,5 @@ switch (luckyNumber) {
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
 adventurous = true; // use to check ternary operator
-adventurous = (adventurous) ? 'Adventures are great!' : 'How about we stay hame?'; //adventurous will be changed to string
+adventurous = (adventurous) ? 'Adventures are great!' : 'How about we stay hame?'; // adventurous will be changed to string
 console.log(adventurous); // prints adventurous string
